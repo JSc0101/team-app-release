@@ -6,8 +6,8 @@ function saludar(options: Array<string>) {
   if (options[0] === undefined) {
     console.log("ingresa la opcion requerida");
   }
-  if (options[0] === "--greet") {
-    console.log("Hola Mundo");
+  if (options[0] === "--version") {
+    console.log("1.0.0");
   }
 }
 
